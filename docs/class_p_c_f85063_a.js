@@ -28,7 +28,7 @@ var class_p_c_f85063_a =
     [ "readTime", "class_p_c_f85063_a.html#a0693e91560ed2bd5469850849a93e9c9", null ],
     [ "reset", "class_p_c_f85063_a.html#a0e6cbd0fbb31e3dbc8629dc65f9d33ab", null ],
     [ "setAlarm", "class_p_c_f85063_a.html#ac90f07fb83202fd09c1128dcc38616df", null ],
-    [ "setDate", "class_p_c_f85063_a.html#a1581e729664f2a57869a864ea72fcef9", null ],
+    [ "setDate", "class_p_c_f85063_a.html#a9e67a817656cb52b8f6d84bd931dde67", null ],
     [ "setTime", "class_p_c_f85063_a.html#ab5c37ad52aac96b1c3f3100eccb49bfe", null ],
     [ "timerSet", "class_p_c_f85063_a.html#aa70b1cf96d79dfe0599856fe0b129b22", null ],
     [ "alarm_day", "class_p_c_f85063_a.html#aeaef8790f70495f9e7c69f58a675fb49", null ],
