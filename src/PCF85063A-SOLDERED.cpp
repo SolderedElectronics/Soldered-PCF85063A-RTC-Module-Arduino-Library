@@ -46,7 +46,7 @@ void PCF85063A::setTime(uint8_t hour, uint8_t minute, uint8_t second)
  * @param uint8_t month     Set the month
  * @param uint8_t yr        Set the year
  */
-void PCF85063A::setDate(uint8_t weekday, uint8_t day, uint8_t month, uint8_t yr)
+void PCF85063A::setDate(uint8_t weekday, uint8_t day, uint8_t month, uint16_t yr)
 {
     year = yr - 1970; // convert to RTC year format 0-99
 
