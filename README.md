@@ -5,7 +5,7 @@
 
 | ![PCF85063A Soldered Board](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------:    |
-| [PCF85063A Soldered Board](https://www.solde.red/SKU)                                              |
+| [PCF85063A Soldered Board](https://www.solde.red/333051)                                              |
 
 PCF85063A RTC Board from Soldered, compliant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
