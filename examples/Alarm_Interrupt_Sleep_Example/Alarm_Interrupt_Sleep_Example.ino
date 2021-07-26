@@ -159,7 +159,7 @@ void sleepNow()
     digitalWrite(LED_BUILTIN, LOW);
     sleep_cpu(); // activating sleep
 #else
-    while (digitalRead(wakePin) == HIGH)
+    while (digitalRead(wakePin) == LOW)
         ; // wait for wakeup interrupt
 #endif
 
