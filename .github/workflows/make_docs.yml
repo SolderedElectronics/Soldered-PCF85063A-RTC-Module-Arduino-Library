@@ -22,7 +22,6 @@ jobs:
       - run: sudo mv -f examples gh-pages/examples
       - run: sudo mv -f extras gh-pages/extras
       - run: sudo cp README.md gh-pages/README.md
-      - run: sudo touch gh-pages/.nojekyll
 
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@v1.1.0
@@ -32,6 +31,7 @@ jobs:
 
       - run: sudo apt-get install tree
 
+      - run: sudo touch gh-pages/html/.nojekyll
       - run: mv gh-pages/html gh-pages/docs
 
       - run: tree
