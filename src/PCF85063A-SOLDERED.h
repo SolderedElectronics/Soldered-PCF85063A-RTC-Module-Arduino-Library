@@ -64,7 +64,7 @@ class PCF85063A
     };
 
     void setTime(uint8_t hour, uint8_t minute, uint8_t sec);
-    void setDate(uint8_t weekday, uint8_t day, uint8_t month, uint8_t yr);
+    void setDate(uint8_t weekday, uint8_t day, uint8_t month, uint16_t yr);
     void readTime();
     void enableAlarm(); // called on setAlarm()
     void setAlarm(uint8_t alarm_second, uint8_t alarm_minute, uint8_t alarm_hour, uint8_t alarm_day,
