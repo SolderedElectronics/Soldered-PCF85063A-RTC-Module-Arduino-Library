@@ -152,7 +152,7 @@ void checkAlarm()
 
 void sleepNow()
 {
-#ifndef __AVR__                                                 // for Arduino AVRs
+#ifdef __AVR__                                                  // for Arduino AVRs
     sleep_enable();                                             // enables the sleep bit in the mcucr register
     attachInterrupt(digitalPinToInterrupt(0), wakeUpNow, HIGH); // use interrupt 0 (pin 2) and run function
     set_sleep_mode(SLEEP_MODE_PWR_DOWN);                        // sleep mode is set here
