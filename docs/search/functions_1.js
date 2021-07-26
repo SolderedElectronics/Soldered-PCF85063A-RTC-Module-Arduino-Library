@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['easyc_28',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
+  ['changetimeformat_70',['changeTimeFormat',['../class_p_c_f85063_a.html#a86e0b1769f8edd5c1cef1237631704c0',1,'PCF85063A']]],
+  ['checktimerflag_71',['checkTimerFlag',['../class_p_c_f85063_a.html#aa38be1614f978564638b792444641805',1,'PCF85063A']]]
 ];

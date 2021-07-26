@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initializenative_29',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC::initializeNative()']]]
+  ['dectobcd_72',['decToBcd',['../class_p_c_f85063_a.html#aded92a5a523771c40f79b1c39ffec8ed',1,'PCF85063A']]]
 ];
