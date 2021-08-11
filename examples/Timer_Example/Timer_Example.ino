@@ -18,6 +18,7 @@ uint8_t countdown_time = 5; // timer countdown in seconds
 void setup()
 {
     Serial.begin(115200);
+    rtc.begin();
 
     //  setTime(hour, minute, sec);
     rtc.setTime(6, 54, 00); // 24H mode, ex. 6:54:00

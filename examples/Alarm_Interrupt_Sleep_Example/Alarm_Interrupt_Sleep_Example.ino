@@ -30,6 +30,7 @@ void wakeUpNow()
 void setup()
 {
     Serial.begin(115200);
+    rtc.begin();
 
     pinMode(wakePin, INPUT_PULLUP);
     pinMode(LED_BUILTIN, OUTPUT);
