@@ -18,6 +18,13 @@
  */
 PCF85063A::PCF85063A(void)
 {
+}
+
+/**
+ * @brief                   Initialize communication
+ */
+void PCF85063A::begin()
+{
     Wire.begin();
 }
 

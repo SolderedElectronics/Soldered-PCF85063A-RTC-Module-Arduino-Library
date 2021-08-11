@@ -17,6 +17,7 @@ PCF85063A rtc;
 void setup()
 {
     Serial.begin(115200);
+    rtc.begin();
 
     //  setTime(hour, minute, sec);
     rtc.setTime(6, 54, 00); // 24H mode, ex. 6:54:00

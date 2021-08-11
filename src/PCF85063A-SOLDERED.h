@@ -63,6 +63,8 @@ class PCF85063A
         TIMER_CLOCK_1PER60HZ = 3
     };
 
+    void begin();
+
     void setTime(uint8_t hour, uint8_t minute, uint8_t sec);
     void setDate(uint8_t weekday, uint8_t day, uint8_t month, uint16_t yr);
     void readTime();
