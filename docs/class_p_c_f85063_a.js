@@ -8,6 +8,7 @@ var class_p_c_f85063_a =
     ] ],
     [ "PCF85063A", "class_p_c_f85063_a.html#aff0f67cb38fac9baad2bb829b7796d9a", null ],
     [ "bcdToDec", "class_p_c_f85063_a.html#af7124080853a23d3f0a83f665480f930", null ],
+    [ "begin", "class_p_c_f85063_a.html#a9bf7b6c1d09631058825b834824cdd39", null ],
     [ "changeTimeFormat", "class_p_c_f85063_a.html#a86e0b1769f8edd5c1cef1237631704c0", null ],
     [ "checkTimerFlag", "class_p_c_f85063_a.html#aa38be1614f978564638b792444641805", null ],
     [ "decToBcd", "class_p_c_f85063_a.html#aded92a5a523771c40f79b1c39ffec8ed", null ],
