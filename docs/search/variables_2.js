@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['control_5f2_107',['control_2',['../class_p_c_f85063_a.html#af66394464b8d10b4feb7b6899f6d62de',1,'PCF85063A']]]
+  ['day_84',['day',['../class_p_c_f85063_a.html#a8e0b40d3ac8e5e7e019288e6655a60a4',1,'PCF85063A']]]
 ];

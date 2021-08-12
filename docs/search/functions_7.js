@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['readalarm_89',['readAlarm',['../class_p_c_f85063_a.html#ab1b6985c890edce7d5cd560ea77b2da7',1,'PCF85063A']]],
-  ['readdata_90',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_91',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]],
-  ['readtime_92',['readTime',['../class_p_c_f85063_a.html#a0693e91560ed2bd5469850849a93e9c9',1,'PCF85063A']]],
-  ['reset_93',['reset',['../class_p_c_f85063_a.html#a0e6cbd0fbb31e3dbc8629dc65f9d33ab',1,'PCF85063A']]]
+  ['setalarm_74',['setAlarm',['../class_p_c_f85063_a.html#ac90f07fb83202fd09c1128dcc38616df',1,'PCF85063A']]],
+  ['setdate_75',['setDate',['../class_p_c_f85063_a.html#a9e67a817656cb52b8f6d84bd931dde67',1,'PCF85063A']]],
+  ['settime_76',['setTime',['../class_p_c_f85063_a.html#ab5c37ad52aac96b1c3f3100eccb49bfe',1,'PCF85063A']]]
 ];

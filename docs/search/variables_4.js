@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['err_110',['err',['../class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853',1,'EasyC']]]
+  ['minute_86',['minute',['../class_p_c_f85063_a.html#afd81ee90d21055f3979ebf2ed3ad2a0b',1,'PCF85063A']]],
+  ['month_87',['month',['../class_p_c_f85063_a.html#a8920f3d6dd7cd595ffdeaa72e310aac8',1,'PCF85063A']]]
 ];

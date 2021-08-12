@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['easyc_2ecpp_63',['easyC.cpp',['../easy_c_8cpp.html',1,'']]],
-  ['easyc_2eh_64',['easyC.h',['../easy_c_8h.html',1,'']]]
+  ['pcf85063a_2dsoldered_2ecpp_49',['PCF85063A-SOLDERED.cpp',['../_p_c_f85063_a-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
+  ['pcf85063a_2dsoldered_2eh_50',['PCF85063A-SOLDERED.h',['../_p_c_f85063_a-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
 ];

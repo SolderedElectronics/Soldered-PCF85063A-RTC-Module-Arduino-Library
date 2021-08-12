@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initializenative_87',['initializeNative',['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC']]]
+  ['pcf85063a_70',['PCF85063A',['../class_p_c_f85063_a.html#aff0f67cb38fac9baad2bb829b7796d9a',1,'PCF85063A']]]
 ];

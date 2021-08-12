@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['pcf85063a_38',['PCF85063A',['../class_p_c_f85063_a.html',1,'PCF85063A'],['../class_p_c_f85063_a.html#aff0f67cb38fac9baad2bb829b7796d9a',1,'PCF85063A::PCF85063A()']]],
-  ['pcf85063a_20arduino_20library_39',['PCF85063A Arduino library',['../index.html',1,'']]],
-  ['pcf85063a_2dsoldered_2ecpp_40',['PCF85063A-SOLDERED.cpp',['../_p_c_f85063_a-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['pcf85063a_2dsoldered_2eh_41',['PCF85063A-SOLDERED.h',['../_p_c_f85063_a-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
+  ['second_37',['second',['../class_p_c_f85063_a.html#a217014a981304c262ae656cdc19773bd',1,'PCF85063A']]],
+  ['setalarm_38',['setAlarm',['../class_p_c_f85063_a.html#ac90f07fb83202fd09c1128dcc38616df',1,'PCF85063A']]],
+  ['setdate_39',['setDate',['../class_p_c_f85063_a.html#a9e67a817656cb52b8f6d84bd931dde67',1,'PCF85063A']]],
+  ['settime_40',['setTime',['../class_p_c_f85063_a.html#ab5c37ad52aac96b1c3f3100eccb49bfe',1,'PCF85063A']]]
 ];

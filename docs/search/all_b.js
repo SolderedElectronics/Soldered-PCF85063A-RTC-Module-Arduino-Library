@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['readalarm_42',['readAlarm',['../class_p_c_f85063_a.html#ab1b6985c890edce7d5cd560ea77b2da7',1,'PCF85063A']]],
-  ['readdata_43',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readme_2emd_44',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readregister_45',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]],
-  ['readtime_46',['readTime',['../class_p_c_f85063_a.html#a0693e91560ed2bd5469850849a93e9c9',1,'PCF85063A']]],
-  ['reset_47',['reset',['../class_p_c_f85063_a.html#a0e6cbd0fbb31e3dbc8629dc65f9d33ab',1,'PCF85063A']]]
+  ['timer_5fclock_5f1hz_41',['TIMER_CLOCK_1HZ',['../class_p_c_f85063_a.html#a0e5c1d75e05c499c5c4fdb771e685c07ade9e57ff9e210f9cf2fc8ea7fec8d0be',1,'PCF85063A']]],
+  ['timer_5fclock_5f1per60hz_42',['TIMER_CLOCK_1PER60HZ',['../class_p_c_f85063_a.html#a0e5c1d75e05c499c5c4fdb771e685c07a2771b21541a7b7f1d7eac0468ca6a1ea',1,'PCF85063A']]],
+  ['timer_5fclock_5f4096hz_43',['TIMER_CLOCK_4096HZ',['../class_p_c_f85063_a.html#a0e5c1d75e05c499c5c4fdb771e685c07afddf8a841eb5e58c6127b67672ebceee',1,'PCF85063A']]],
+  ['timer_5fclock_5f64hz_44',['TIMER_CLOCK_64HZ',['../class_p_c_f85063_a.html#a0e5c1d75e05c499c5c4fdb771e685c07a4f9d0e82ecec0e4265e7603db28e66d9',1,'PCF85063A']]],
+  ['timerset_45',['timerSet',['../class_p_c_f85063_a.html#aa70b1cf96d79dfe0599856fe0b129b22',1,'PCF85063A']]]
 ];
