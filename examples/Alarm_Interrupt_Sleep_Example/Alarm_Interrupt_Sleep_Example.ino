@@ -4,7 +4,7 @@
  * @file        Alarm_Interrupt_Sleep_Example.ino
  * @brief       Example for Alarm Interrupted Sleep on the AVRs
  *
- *
+ *              Product: www.solde.red/333051
  *
  * @authors     @ Zvonimir Haramustek for soldered.com.com
  ***************************************************/
@@ -12,6 +12,12 @@
 #include "PCF85063A-SOLDERED.h"
 #ifdef __AVR__
 #include <avr/sleep.h>
+#endif
+
+#ifndef LED_BUILTIN     // Some microcontroller boards doesnt have builtin LED
+                        // so compiler would send error message
+#define LED_BUILTIN 9   // It is possible to add LED instead of builtin and
+                        // attach to this pin
 #endif
 
 PCF85063A rtc;
@@ -29,11 +35,15 @@ void wakeUpNow()
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(115200); 
     rtc.begin();
 
     pinMode(wakePin, INPUT_PULLUP);
+
+    
     pinMode(LED_BUILTIN, OUTPUT);
+
+    
 
     //  setTime(hour, minute, sec);
     rtc.setTime(6, 54, 00); // 24H mode, ex. 6:54:00
@@ -59,9 +69,10 @@ void loop()
 
 void printCurrentTime()
 {
-    switch (rtc.getWeekday())
+    switch (rtc.getWeekday()) // Get weekday, 0 is Sunday
+                              // and decode to string
     {
-    case 0:
+    case 0:                   
         Serial.print("Sunday , ");
         break;
     case 1:
@@ -84,23 +95,24 @@ void printCurrentTime()
         break;
     }
 
-    Serial.print(rtc.getDay());
+    Serial.print(rtc.getDay()); //Function for getting day in month
     Serial.print(".");
-    Serial.print(rtc.getMonth());
+    Serial.print(rtc.getMonth()); //Function for getting month
     Serial.print(".");
-    Serial.print(rtc.getYear());
+    Serial.print(rtc.getYear()); //Function for getting year
     Serial.print(". ");
-    Serial.print(rtc.getHour());
+    Serial.print(rtc.getHour()); //Function for getting hours
     Serial.print(":");
-    Serial.print(rtc.getMinute());
+    Serial.print(rtc.getMinute()); //Function for getting minutes
     Serial.print(":");
-    Serial.println(rtc.getSecond());
+    Serial.println(rtc.getSecond()); //Function for getting seconds
 }
 
 void checkAlarm()
 {
     Serial.print("Alarm is set to match: ");
-    switch (rtc.getAlarmWeekday())
+    switch (rtc.getAlarmWeekday()) // Get weekday, when alarm
+                                   // is set to
     {
     case 0:
         Serial.print("Sunday , ");
@@ -124,25 +136,25 @@ void checkAlarm()
         Serial.print("Saturday , ");
         break;
     default:
-        break; // for getAlarmWeekday=99 alarm is not set for a weekday, donnot print
+        break; // for getAlarmWeekday=99 alarm is not set for a weekday, do not print
     }
 
-    if (rtc.getAlarmDay() != 99)
+    if (rtc.getAlarmDay() != 99)  // Get month day, when alarm is set to
     {
         Serial.print("Date: ");
         Serial.print(rtc.getAlarmDay());
     }
-    if (rtc.getAlarmHour() != 99)
+    if (rtc.getAlarmHour() != 99) // Get hours, when alarm is set to
     {
         Serial.print(" hour: ");
         Serial.print(rtc.getAlarmHour());
     }
-    if (rtc.getAlarmMinute() != 99)
+    if (rtc.getAlarmMinute() != 99) // Get minutes, when alarm is set to
     {
         Serial.print(" minute: ");
         Serial.print(rtc.getAlarmMinute());
     }
-    if (rtc.getAlarmSecond() != 99)
+    if (rtc.getAlarmSecond() != 99) // Get seconds, when alarm is set to
     {
         Serial.print(" second: ");
         Serial.print(rtc.getAlarmSecond());
@@ -165,5 +177,6 @@ void sleepNow()
 #endif
 
     // THE PROGRAM CONTINUES FROM HERE AFTER WAKING UP
+
     digitalWrite(LED_BUILTIN, HIGH);
 }
