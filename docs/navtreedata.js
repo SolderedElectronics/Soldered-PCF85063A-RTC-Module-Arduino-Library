@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "PCF85063A Arduino Library", "index.html", [
-    [ "Real time clock RTC PCF85063A breakout Arduino library", "index.html", null ],
+    [ "Real time clock RTC PCF85063A breakout Arduino library", "index.html", [
+      [ "Have fun!", "index.html#autotoc_md8", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
