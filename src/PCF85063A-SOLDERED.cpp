@@ -454,6 +454,92 @@ void PCF85063A::reset() // datasheet 8.2.1.3.
 }
 
 /**
+ * @brief                   Sets the offset register. Positive offsets slow the clock down, negative speed it up.
+ */
+void PCF85063A::setOffset(bool mode, int8_t offsetValue) // datasheet 7.2.3
+{
+    // ensure that offset is within a valid range
+    if (offsetValue < -64 || offsetValue > 63) {
+        return;
+    }
+
+    byte combinedOffsetByte = 128 + offsetValue;
+
+    if (mode == 1)
+    {
+        // replace bit 7 (mode bit) with 1
+        combinedOffsetByte |= (1 << 7);
+    }
+    else
+    {
+        // replace bit 7 (mode bit) with 0
+        combinedOffsetByte &= ~(1 << 7);
+    }
+
+    // set the offset register
+    Wire.beginTransmission(I2C_ADDR);
+    Wire.write(RTC_OFFSET);
+    Wire.write(combinedOffsetByte);
+    Wire.endTransmission();
+}
+
+/**
+ * @brief                   Reads the offset register
+ */
+void PCF85063A::readOffset() // datasheet 7.2.3
+{
+    Wire.beginTransmission(I2C_ADDR);
+    Wire.write(RTC_OFFSET); // datasheet 8.4.
+    Wire.endTransmission();
+
+    Wire.requestFrom(I2C_ADDR, 1);
+
+    while (Wire.available())
+    {
+         offset = Wire.read(); 
+    }
+}
+
+/**
+ * @brief                   Small user method
+ *
+ * @returns int8_t          Returns the current offset as signed decimal value (see datasheet table 12)
+ */
+int8_t PCF85063A::getOffset()
+{
+    readOffset();
+    
+    // replace bit 7 (mode bit) with 0 to get rid of mode
+    offset &= ~(1 << 7);
+
+    // replace bit 7 (sign bit) with 1 if bit 6 == 1 to shift offset to negative number range if negative offset is read
+    if (offset & (1 << 6))
+    {
+        offset |= (1 << 7);
+    }
+
+    return offset;
+}
+
+/**
+ * @brief                   Small user method
+ *
+ * @returns bool            Returns the current offset mode (see datasheet table 11)
+ */
+bool PCF85063A::getOffsetMode()
+{
+    readOffset();
+    
+    // return mode bit (bit 7)
+    if (offset & (1 << 7))
+    {
+        return 1;
+    }
+
+    return 0;
+}
+
+/**
  * @brief                   Converts decimal to BCD
  */
 uint8_t PCF85063A::decToBcd(uint8_t val)
