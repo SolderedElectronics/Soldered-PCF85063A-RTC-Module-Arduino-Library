@@ -76,6 +76,8 @@ class PCF85063A
     void timerSet(CountdownSrcClock source_clock, uint8_t value, bool int_enable, bool int_pulse);
     bool checkTimerFlag();
     void reset();
+    void readOffset(); // called on setOffset()
+    void setOffset(bool mode, int8_t offsetValue);
     /* read RTC times */
     uint8_t getSecond();
     uint8_t getMinute();
@@ -90,6 +92,9 @@ class PCF85063A
     uint8_t getAlarmHour();
     uint8_t getAlarmDay();
     uint8_t getAlarmWeekday();
+    /* read register offset */
+    int8_t getOffset();
+    bool getOffsetMode();
 
   private:
     uint8_t decToBcd(uint8_t val);
@@ -108,7 +113,10 @@ class PCF85063A
     uint8_t alarm_hour;
     uint8_t alarm_day;
     uint8_t alarm_weekday;
+    /* offset */
+    int8_t offset;
     /* support */
+    uint8_t control_1;
     uint8_t control_2;
 };
 
