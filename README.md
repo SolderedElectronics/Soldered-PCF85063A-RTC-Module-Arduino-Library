@@ -6,7 +6,7 @@
 
 | ![Real time clock PCF85063A breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :--------------------------------------------------------------------------------------------------------------: |
-|                      [Real time clock PCF85063A breakout](https://www.solde.red/333051)                      |
+|                      [Real time clock PCF85063A breakout](https://solde.red/333051)                      |
 
 RTC (Real Time Clock) is a device that carefully and precisely tracks time and dates. It is extremely precise so as a long-term solution, it is better for time tracking than clock on microcontrollers. This breakout can work with extremely low current and thanks to the alarm option and interrupt pin, it will allow a microcontroller to enter sleep mode until its awaken by this RTC.
 
@@ -16,7 +16,7 @@ It has a built-in battery holder (doesn't come with a battery) and even if power
 - RTC IC: PCF85063A
 - Voltage: 0.9V - 5.5V
 - easyC connector
-- Dimensions: 36 x 22 mm (https://www.soldered.com/en/easyC)
+- Dimensions: 36 x 22 mm (https://www.soldered.com/easyC)
 
 ### Repository Contents
 
@@ -26,7 +26,7 @@ It has a built-in battery holder (doesn't come with a battery) and even if power
 
 ### Hardware design
 
-You can find hardware design for this board in [_Real time clock RTC PCF85063A breakout_](https://github.com/SolderedElectronics/NAZIVPROIZVODA-hardware-design) hardware repository.
+You can find hardware design for this board in [_Real time clock RTC PCF85063A breakout_](https://github.com/SolderedElectronics/Real-time-clock-RTC-PCF85063A-breakout-hardware-design) hardware repository.
 
 ### Documentation
 
