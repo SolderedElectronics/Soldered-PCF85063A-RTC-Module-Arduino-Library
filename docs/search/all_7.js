@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['minute_0',['minute',['../class_p_c_f85063_a.html#afd81ee90d21055f3979ebf2ed3ad2a0b',1,'PCF85063A']]],
-  ['month_1',['month',['../class_p_c_f85063_a.html#a8920f3d6dd7cd595ffdeaa72e310aac8',1,'PCF85063A']]]
+  ['hardware_20design_0',['Hardware design',['../index.html#autotoc_md2',1,'']]],
+  ['have_20fun_1',['Have fun!',['../index.html#autotoc_md7',1,'']]],
+  ['hour_2',['hour',['../class_p_c_f85063_a.html#a049c8e9a2b8fb4886540c44a157c2939',1,'PCF85063A']]]
 ];
