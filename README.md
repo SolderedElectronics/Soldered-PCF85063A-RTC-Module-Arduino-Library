@@ -4,7 +4,7 @@
 [![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-PCF85063A-RTC-Module-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-PCF85063A-RTC-Module-Arduino-Library/actions/workflows/arduino_lint.yml)
 
 
-| ![Real time clock PCF85063A breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Real time clock PCF85063A breakout](https://soldered.com/cdn/shop/files/333051_featured-photo_965e16.jpg) |
 | :--------------------------------------------------------------------------------------------------------------: |
 |                      [Real time clock PCF85063A breakout](https://solde.red/333051)                      |
 
